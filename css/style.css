@@ -397,7 +397,7 @@ header.sticky #logo .logo_sticky{ display:block; }
 	width:160px;
 	height:34px;
 	display:block;
-	background-image:url(../img/logo.png);
+	background-image:url(../assets/images/logos/logo_2x.png);
 	background-repeat:no-repeat;
 	background-position:left top;
 	background-size: 160px 34px;
@@ -408,13 +408,13 @@ header.sticky #logo_home h1{
 	padding:0;
 }
 header.sticky #logo_home h1 a{
-	background-image:url(../img/logo_sticky.png);
+	background-image:url(../assets/images/logos/logo_sticky_2x.png);
 }
 header#plain #logo_home h1 a{
-	background-image:url(../img/logo_sticky.png);
+	background-image:url(../assets/images/logos/logo_sticky_2x.png);
 }
 header.sticky#colored #logo_home h1 a{
-	background-image:url(../img/logo_sticky_colored.png);
+	background-image:url(../assets/images/logos/logo_2x.png);
 }
 @media only screen and (min--moz-device-pixel-ratio: 2),
 only screen and (-o-min-device-pixel-ratio: 2/1),
@@ -498,7 +498,7 @@ a#access_link, a#wishlist_link{
 	top:0;
 }
 
-#wishlist_link:before{content: '\ee7a';}
+#wishlist_link:before{content: '\ecd5';}
 #access_link:before{content: '\e9d1';}
 
 ul#top_links li{
@@ -7363,18 +7363,18 @@ only screen and (min-device-pixel-ratio: 2) and (max-width: 991px) {
 	
 	#logo_home h1 a,
 	header#colored #logo_home h1 a {
-		background-image: url(../img/logo_2x.png);
+		background-image: url(../assets/images/logos/logo_2x.png);
 		background-size: auto 30px;
 	}
 	
 	header.sticky #logo_home h1 a,
 	header#plain #logo_home h1 a {
-		background-image: url(../img/logo_sticky_2x.png);
+		background-image: url(../assets/images/logos/logo_sticky_2x.png);
 		background-size: auto 30px;
 	}
 	
 	header.sticky#colored #logo_home h1 a {
-		background-image: url(../img/logo_sticky_colored_2x.png);
+		background-image: url(../assets/images/logos/logo_2x.png);
 		background-size: auto 30px;
 	}
 }

@@ -3,8 +3,8 @@
          $.notify({
              // options
              icon: '',
-             title: "<a href=\"single_tour.html\" target=\"_blank\"><h4>Last booking</h4>",
-             message: "<figure><img src=\"img/notify_img.jpg\"></figure><p>Arch de Triomphe Tour (13 min. ago).</a> "
+             title: "<a href=\"single_tour.html\" target=\"_blank\"><h4>Read Affiliate Disclosure</h4>",
+             message: "<figure><img src=\"assets/images/others/notify.png\"></figure><p>This website uses affiliate links...</a> "
          }, {
              // settings
              icon_type: 'image',
