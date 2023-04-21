@@ -3,7 +3,7 @@
          $.notify({
              // options
              icon: '',
-             title: "<a href=\"single_tour.html\" target=\"_blank\"><h4>Read Affiliate Disclosure</h4>",
+             title: "<a href=\"sub_pages/affiliate.html\"><h4>Read Affiliate Disclosure</h4>",
              message: "<figure><img src=\"assets/images/others/notify.png\"></figure><p>This website uses affiliate links...</a> "
          }, {
              // settings
