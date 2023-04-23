@@ -1,8 +1,4 @@
 /*
-Theme Name: CITYTOURS  v.5.7
-Theme URI: http://www.ansonika.com/citytours/
-Author: Ansonika
-Author URI: http://themeforest.net/user/Ansonika/
 
 [Table of contents] 
 
@@ -696,7 +692,7 @@ ul#cart_items li:last-child span{
 
 /* Footer */
 footer {
-	background: #222;
+	background: #131a22;
 	color: #fff;
 	padding: 30px 0 10px 0;
 }
@@ -3830,7 +3826,7 @@ ul.list_order li span {
 /*Banners*/
 .banner {
 	position: relative;
-	background: #fff url(../img/banner_bg.png) no-repeat center bottom;
+	background: #fff url(../assets/images/others/banner_bg.png) no-repeat center bottom;
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
 	border-radius: 5px;
@@ -3888,7 +3884,7 @@ ul.list_order li span {
 }
 
 .banner.colored {
-	background: #e04f67 url(../img/banner_bg_colored.png) no-repeat center bottom;
+	background: #131a22 url(../assets/images/others/banner_bg.png) no-repeat center bottom;
 	color: #fff;
 }
 
@@ -4944,7 +4940,7 @@ ul.plan-features {
 /*-------- 5.2 Footer styles --------*/
 /* Footer 3 */
 footer#pattern_2 {
-	background: #222 url(../img/pattern_3.png) repeat 0 0;
+	background: #131a22 url(../assets/images/others/pattern_3.png) repeat 0 0;
 }
 
 footer #logo {
