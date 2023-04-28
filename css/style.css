@@ -2337,7 +2337,7 @@ input.qty2:focus {
 .features-bg {
 	position: relative;
 	min-height: 400px;
-	background: url(../img/features-intro-01.jpg) no-repeat center center;
+	background: url(../assets/images/others/about-img.jpg) no-repeat center center;
 	background-size: cover;
 }
 
@@ -2409,7 +2409,7 @@ input.qty2:focus {
 }
 
 .rating .voted {
-	color: #F90;
+	color: #38761d;
 }
 
 /*-------- 2.6 Contact us --------*/
@@ -4743,7 +4743,7 @@ ul.plan-features {
 /* Promo_full */
 .promo_full {
 	height: auto;
-	background: url(../img/home_bg_2.jpg) no-repeat center center;
+	background: url(../assets/images/others/home_bg_1.jpg) no-repeat center center;
 	background-attachment: fixed;
 	background-size: cover;
 	-webkit-background-size: cover;
