@@ -3944,13 +3944,13 @@ ul.list_order li span {
 }
 
 .sk-spinner-wave .sk-rect4 {
-	-webkit-animation-delay: -0.9s;
-	animation-delay: -0.9s;
+	-webkit-animation-delay: -0.5s;
+	animation-delay: -0.5s;
 }
 
 .sk-spinner-wave .sk-rect5 {
-	-webkit-animation-delay: -0.8s;
-	animation-delay: -0.8s;
+	-webkit-animation-delay: -0.7s;
+	animation-delay: -0.7s;
 }
 
 @-webkit-keyframes sk-waveStretchDelay {
