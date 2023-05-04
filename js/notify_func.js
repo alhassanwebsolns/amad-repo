@@ -3,8 +3,8 @@
          $.notify({
              // options
              icon: '',
-             title: "<a href=\"subs/affiliate-disclosure.html\"><h4>Read Affiliate Disclosure</h4>",
-             message: "<figure><img src=\"assets/images/others/notify.png\"></figure><p>Some of the links on this website are affiliate links...</a> "
+             title: "<a href=\"subs/affiliate-disclosure.html\"><h4>READ FAIR USAGE DISCLAIMER</h4>",
+             message: "<figure><img src=\"assets/images/others/notify.png\"></figure><p>We take great care to ensure that all images used on our website...</a> "
          }, {
              // settings
              icon_type: 'image',
