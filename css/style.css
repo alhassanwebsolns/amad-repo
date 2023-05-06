@@ -105,7 +105,7 @@ h2 span, h3 span, h4 span, h5 span, h6 span{color:#e04f67;}
 
 /*General links color*/
 a {color: #e14d67;text-decoration: none;-webkit-transition: all 0.2s ease;transition: all 0.2s ease; outline:none;}
-a:hover,a:focus {color: #111;text-decoration: none; outline:none;}
+a:hover,a:focus {color: #ffc107;text-decoration: none; outline:none;}
 
 p {margin: 0 0 20px 0;}
 
@@ -455,7 +455,7 @@ nav{ margin-top:20px!important; position:relative;}
 
 ul#top_tools{list-style:none; padding:0; position:absolute; right:15px; top:0; z-index:999;}
 ul#top_tools a{ color:#fff;}
-ul#top_tools a:hover {color:#e04f67;}
+ul#top_tools a:hover {color:#ffc107;}
 .sticky ul#top_tools a{ color:#333; }
 ul#top_tools li{display:inline-block; padding:0 10px;}
 ul#top_tools li i{font-size: 18px; font-weight: normal;}
@@ -710,7 +710,7 @@ footer a {
 }
 
 footer a:hover {
-	color: #999;
+	color: #ffc107;
 }
 
 footer ul {
@@ -767,7 +767,7 @@ a#phone,
 a#email_footer {
 	display: block;
 	position: relative;
-	color: #fdf7ac;
+	color: #ffc107;
 	font-size: 14px;
 	padding-left: 40px;
 	margin: 20px 0;
@@ -2409,7 +2409,7 @@ input.qty2:focus {
 }
 
 .rating .voted {
-	color: #38761d;
+	color: #ffc107;
 }
 
 /*-------- 2.6 Contact us --------*/
