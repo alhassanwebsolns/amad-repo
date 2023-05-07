@@ -3,7 +3,7 @@
          $.notify({
              // options
              icon: '',
-             title: "<a href=\"subs/affiliate-disclosure.html\"><h4>READ FAIR USAGE DISCLAIMER</h4>",
+             title: "<a href=\"subs/fair-usage-disclaimer.html\"><h4>READ FAIR USAGE DISCLAIMER</h4>",
              message: "<figure><img src=\"assets/images/others/notify.png\"></figure><p>We take great care to ensure that all images used on our website...</a> "
          }, {
              // settings
