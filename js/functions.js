@@ -281,6 +281,10 @@ $("#carousel-home .owl-carousel").on("initialized.owl.carousel", function() {
 const $owlCarousel = $("#carousel-home .owl-carousel").owlCarousel({
     items: 1,
     loop: true,
+    autoplay:true,
+    autoplayTimeout:5000,
+    autoplaySpeed: 1000,
+    autoplayHoverPause:true,
     nav: false,
     dots: true,
     responsive: {
@@ -310,7 +314,11 @@ $owlCarousel.on("resize.owl.carousel", function() {
 	$('.list_carousel').owlCarousel({
 		center: false,
 		items: 2,
-		loop: false,
+		loop: true,
+		autoplay:true,
+        autoplayTimeout:5000,
+        autoplaySpeed: 1000,
+        autoplayHoverPause:true,
 		margin: 0,
 		dots:false,
 		nav: true,
