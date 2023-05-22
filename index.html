@@ -26,6 +26,29 @@
 	<!-- CUSTOM CSS -->
 	<link href="css/custom.css" rel="stylesheet">
 
+    <style>
+    .responsive-iframe {
+        width: 100%;
+        height: 0;
+        padding-bottom: 104%; /* Adjust this value as needed for aspect ratio */
+        position: relative;
+    }
+
+    .responsive-iframe iframe {
+        position: absolute;
+        width: 95%;
+        height: 100%;
+        border: none;
+    }
+
+    /* Media query for small devices */
+    @media (max-width: 600px) {
+        .responsive-iframe {
+            padding-bottom: 150%; /* Adjust this value for a different aspect ratio on small devices */
+        }
+    }
+   </style>
+
 </head>
 
 <body>
@@ -113,13 +136,7 @@
                                 <ul>
                                 <li><a href="shopping-malls/shopping-malls-list.html">Shopping Malls </a></li>
                                 <li><a href="hotels/hotels-list1.html">Top Rated Hotels</a></li>
-                                <li><a href="attractions/attractions-list1.html">Iconic Attractions</a></li>
-                                <li><a href="adventure/adventure-list.html">Adventure and Sports </a></li>
-                                <li><a href="beaches/beaches-list.html">Beaches and Waterfronts </a></li>
-                                <li><a href="cultural-sites/cultural-sites-list.html">Historical and Cultural Sites </a></li>
-                                <li><a href="theme-parks/theme-parks-list.html">Theme Parks and Entertainment </a></li>
-                                <li><a href="landmarks/landmarks-list.html">Landmarks and Iconic Buildings </a></li>
-                                    <!--<li><a href="all_hotels_map_listing.html">All hotels map listing</a></li>-->
+                                <li><a href="attractions/attractions-list1.html">Dubai Bucket List</a></li>
                                 </ul>
                             </li>
 
@@ -135,6 +152,18 @@
                                 <a href="#" class="show-submenu"> Virtual Assistant</a>
                             </li>
 
+                            <!--Disclaimers Start-->
+
+                            <li class="submenu">
+                                <a href="javascript:void(0);" class="show-submenu">Disclaimers <i class="icon-down-open-mini"></i></a>
+                                <ul>
+                                <li><a href="subs/affiliate-disclosure.html"> Affiliate Disclosure </a></li>
+                                <li><a href="subs/fair-usage-disclaimer.html">Fair Usage Disclaimer</a></li>
+                                </ul>
+                            </li>
+
+                            <!--Disclaimers End-->
+
                             <li class="submenu">
                                 <a href="faqs.html" class="show-submenu"> FAQs</a>
                             </li>
@@ -146,8 +175,6 @@
                         <li>
                             <a href="javascript:void(0);" class="search-overlay-menu-btn"><i class="icon_search"></i></a>
                         </li>
-
-                        <li><a href="#sign-in-dialog" id="access_link">Sign in</a></li>
                     </ul>
 
                 </nav>
@@ -172,8 +199,8 @@
                                 <div class="col-lg-12 static">
                                     <div class="slide-text text-center white">
                                         <h2 class="owl-slide-animated owl-slide-title">This is AMAD <br>ASK ME ABOUT DUBAI</h2>
-                                        <p style="text-align: center;">
-                                             Your ultimate virtual travel assistant for Dubai tourists! <br> We're passionate about helping visitors discover the best of Dubai and creating unforgettable travel experiences.
+                                        <p class="hide-on-small" style="text-align: center;">
+                                             Your dedicated virtual travel assistant for Dubai, we are committed to delivering exceptional experiences and assisting you in uncovering the best that the city has to offer. With our seamless information and expertise, we strive to create unforgettable travel journeys that exceed your expectations. Let us guide you through Dubai's wonders and help you make the most of your visit.
 
                                         </p>
                                         <div class="owl-slide-animated owl-slide-cta"><a class="btn_1" href="about-amad.html" role="button">Learn More</a></div>
@@ -193,11 +220,11 @@
                             <div class="row justify-content-center justify-content-md-end">
                                 <div class="col-lg-6 static">
                                     <div class="slide-text text-end white">
-                                        <h2 class="owl-slide-animated owl-slide-title">Luxurious and <br>Stunning Hotels</h2>
+                                        <h2 class="owl-slide-animated owl-slide-title">99 Luxurious and <br>Stunning Hotels</h2>
                                         <p class="owl-slide-animated owl-slide-subtitle">
                                             Experience unparalleled luxury, top-notch service, and awe-inspiring views at Dubai's most opulent and exquisite hotels, boasting world-class amenities.
                                         </p>
-                                        <div class="owl-slide-animated owl-slide-cta"><a class="btn_1" href="#" role="button">Explore More</a></div>
+                                        <div class="owl-slide-animated owl-slide-cta"><a class="btn_1" href="#" role="button">Check Out the full list</a></div>
                                     </div>
                                 </div>
                             </div>
@@ -213,39 +240,18 @@
                             <div class="row justify-content-center justify-content-md-start">
                                 <div class="col-lg-6 static">
                                     <div class="slide-text white">
-                                        <h2 class="owl-slide-animated owl-slide-title">Dubai's most famous <br>landmarks and sights.</h2>
+                                        <h2 class="owl-slide-animated owl-slide-title">200 Dubai's most Captivating Attractions and Activities .</h2>
                                         <p class="owl-slide-animated owl-slide-subtitle">
-                                            Dubai's diverse attractions offer something for everyone, ranging from breathtaking panoramic views and opulent experiences to one-of-a-kind cultural encounters and thrilling adventures.
+                                            Unveil a comprehensive compilation of 200 captivating attractions and activities in Dubai. Explore iconic landmarks, embark on thrilling adventures, immerse in cultural sites, and indulge in entertainment options.
 
                                         </p>
-                                        <div class="owl-slide-animated owl-slide-cta"><a class="btn_1" href="attractions/attractions-list1.html" role="button"> Explore More</a></div>
+                                        <div class="owl-slide-animated owl-slide-cta"><a class="btn_1" href="attractions/attractions-list1.html" role="button"> Check Out the full list</a></div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <!--/owl-slide-->
-
-                <!--/owl-slide3-->
-                <!--<div class="owl-slide cover" style="background-image: url(assets/images/main_slider/faqs.jpg);">
-                    <div class="opacity-mask d-flex align-items-center" data-opacity-mask="rgba(0, 0, 0, 0.5)">
-                        <div class="container">
-                            <div class="row justify-content-center justify-content-md-start">
-                                <div class="col-lg-6 static">
-                                    <div class="slide-text white">
-                                        <h2 class="owl-slide-animated owl-slide-title">Frequently Asked Question <br>About Dubai.</h2>
-                                        <p class="owl-slide-animated owl-slide-subtitle">
-                                            Our guide provides responses to frequently asked questions by travelers preparing to visit Dubai. Allow us to assist you in ensuring that your trip to Dubai is as seamless and pleasant as can be.
-
-                                        </p>
-                                        <div class="owl-slide-animated owl-slide-cta"><a class="btn_1" href="faqs.html" role="button"> Explore More</a></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>-->
                 <!--/owl-slide-->
 
 
@@ -253,61 +259,6 @@
             <div id="icon_drag_mobile"></div>
         </div>
 <!-- Main Slider End --> 
-
-
-
-
-
-<!-- Main Cards Start -->
-        <!--<div class="white_bg">
-        <div class="container margin_60">
-            <div class="main_title">
-                <h2>Browse <span>By</span> Category</h2><br>
-                <p style="text-align:center;" >Quickly locate the information you need for your next Dubai adventure by exploring our carefully curated categories, designed to help you easily find what you're searching for.</p>
-            </div>
-            <div class="row small-gutters categories_grid">
-                <div class="col-sm-12 col-md-6">
-                    <a href="attractions/attractions-list1.html">
-                        <img src="assets/images/cards/virtual-assistant.jpg" alt="" class="img-fluid">
-                        <div class="wrapper">
-                            <h2>travel assistant</h2>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-sm-12 col-md-6">
-                    <div class="row small-gutters mt-md-0 mt-sm-2">
-                        <div class="col-sm-6">
-                            <a href="map.html">
-                                <img src="assets/images/cards/map.jpg" alt="" class="img-fluid">
-                                <div class="wrapper">
-                                    <h2>Guide Map</h2>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-sm-6">
-                            <a href="#">
-                                <img src="assets/images/cards/lists.jpg" alt="" class="img-fluid">
-                                <div class="wrapper">
-                                    <h2>Complied Lists</h2>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-sm-12 mt-sm-2">
-                            <a href="faqs.html">
-                                <img src="assets/images/others/faqs.jpg" alt="" class="img-fluid">
-                                <div class="wrapper">
-                                    <h2>Frequently Asked Questions</h2>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </div>-->
-<!-- Main Cards End -->
-
-
 
 
 <!-- Virtual Assistant Start -->
@@ -322,60 +273,18 @@
             <div class="row">
                 <div class="col-md-8">
                     <div class="form_title">
-                        <h3><strong><i class="icon-pencil"></i></strong>Fill the form below</h3>
-                        <p>
-                            Mussum ipsum cacilds, vidis litro abertis.
-                        </p>
+                        <h3><strong><i class="icon-chat"></i></strong>AMAD is currently undergoing development and training, but we are working tirelessly to bring it to life and make it fully operational!</h3>
+                        <!--<p>
+                            Powered by ChatGPT
+                        </p>-->
                     </div>
                     <div class="step">
 
-                        <div id="message-contact"></div>
-                        <form method="post" action="assets/contact.php" id="contactform">
-                            <div class="row">
-                                <div class="col-sm-6">
-                                    <div class="form-group">
-                                        <label>First Name</label>
-                                        <input type="text" class="form-control" id="name_contact" name="name_contact" placeholder="Enter Name">
-                                    </div>
-                                </div>
-                                <div class="col-sm-6">
-                                    <div class="form-group">
-                                        <label>Last Name</label>
-                                        <input type="text" class="form-control" id="lastname_contact" name="lastname_contact" placeholder="Enter Last Name">
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- End row -->
-                            <div class="row">
-                                <div class="col-sm-6">
-                                    <div class="form-group">
-                                        <label>Email</label>
-                                        <input type="email" id="email_contact" name="email_contact" class="form-control" placeholder="Enter Email">
-                                    </div>
-                                </div>
-                                <div class="col-sm-6">
-                                    <div class="form-group">
-                                        <label>Phone</label>
-                                        <input type="text" id="phone_contact" name="phone_contact" class="form-control" placeholder="Enter Phone number">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-sm-12">
-                                    <div class="form-group">
-                                        <label>Message</label>
-                                        <textarea rows="5" id="message_contact" name="message_contact" class="form-control" placeholder="Write your message" style="height:200px;"></textarea>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-sm-6">
-                                    <label>Human verification</label>
-                                    <input type="text" id="verify_contact" class=" form-control add_bottom_30" placeholder="Are you human? 3 + 1 =">
-                                    <input type="submit" value="Submit" class="btn_1" id="submit-contact">
-                                </div>
-                            </div>
-                        </form>
+                    <div class="responsive-iframe">
+                        <iframe allow="microphone;"
+                                src="https://console.dialogflow.com/api-client/demo/embedded/d50f99ea-310d-4971-a995-81b442baff59">
+                        </iframe>
+                    </div>
                     </div>
                 </div>
                 <!-- End col-md-8 -->
@@ -422,8 +331,8 @@
     <div class="container margin_60">
     
             <div class="main_title">
-                <h2>100 <span>ICONIC ATTRACTIONS</span> TO VISIT IN DUBAI</h2><br>
-                <p>Discover the top 100 must-see attractions in Dubai that captivate visitors from around the globe, thoughtfully compiled to help you plan your ultimate travel itinerary.</p>
+                <h2>200 <span>Captivating Attractions and Activities</span><br> The Ultimate Dubai Bucket List</h2><br>
+                <p>Embark on the ultimate Dubai adventure with our curated list of 200 captivating attractions and activities. Discover the iconic landmarks, thrilling adventures, cultural experiences, and entertainment options that define this vibrant city.</p>
             </div>
         
         <div class="row">
@@ -726,159 +635,55 @@
 
         <!-- Lists Start -->
 
-            <div class="container margin_60">
+        <div class="container margin_60">
 
-        <div class="main_title">
-            <h2>We have <span>more lists</span> for you</h2>
-            <p style="text-align: center;" >Thoroughly researched and consistently updated by a team of knowledgeable and passionate travel enthusiasts.</p>
-        </div>
-
-
-            <div class="owl-carousel owl-theme list_carousel add_bottom_30" >
-
-                <div class="item">
-                    <div class="tour_container">
-                        <div class="ribbon_3 popular"><span>TOP VISITED</span></div>
-                        <div class="img_container">
-                            <a href="shopping-malls/shopping-malls-list.html">
-                                <img src="assets/images/lists/dubai-mall.jpg" width="800" height="533" class="img-fluid" alt="image">
-                                <div class="short_info"></div>
-                            </a>
-                        </div>
-                    <div class="tour_title">
-                        <h3><strong>DUBAI'S TOP 10 SHOPPING MALLS</strong></h3><br>
-                    </div> 
-                    </div>
-                    <!-- End box tour -->
-                </div>
-
-
-                <!-- /item -->
-                <div class="item">
-                    <div class="tour_container">
-                        <div class="ribbon_3 popular"><span>TOP RATED</span></div>
-                        <div class="img_container">
-                            <a href="hotels/hotels-list1.html">
-                                <img src="assets/images/lists/hotels.jpg" width="800" height="533" class="img-fluid" alt="image">
-                                <div class="short_info"></div>
-                            </a>
-                        </div>
-                    <div class="tour_title">
-                        <h3><strong>99 TOP-RANKED DUBAI HOTELS</strong></h3><br>
-                    </div>
-                    </div>
-                    <!-- End box tour -->
-                </div>
-
-
-                <!-- /item -->
-                <div class="item">
-                    <div class="tour_container">
-                        <div class="ribbon_3 popular"><span>ICONIC</span></div>
-                        <div class="img_container">
-                            <a href="attractions/attractions-list1.html">
-                                <img src="assets/images/lists/attractions.jpg" width="800" height="533" class="img-fluid" alt="image">
-                                <div class="short_info"></div>
-                            </a>
-                        </div>
-                    <div class="tour_title">
-                        <h3><strong>100 ICONIC ATTRACTIONS TO VISIT IN DUBAI</strong></h3><br>
-                    </div> 
-                    </div>
-                    <!-- End box tour -->
-                </div>
-
-
-                <!-- /item -->
-                <div class="item">
-                    <div class="tour_container">
-                        <div class="ribbon_3 popular"><span>ADVENTUROUS</span></div>
-                        <div class="img_container">
-                            <a href="adventure/adventure-list.html">
-                                <img src="assets/images/lists/adventure.jpg" width="800" height="533" class="img-fluid" alt="image">
-                                <div class="short_info"></div>
-                            </a>
-                        </div>
-                    <div class="tour_title">
-                        <h3><strong>TOP 10 THRILLING EXPERIENCES</strong></h3><br>
-                    </div>
-                    </div>
-                    <!-- End box tour -->
-                </div>
-
-                <!-- /item -->
-                <div class="item">
-                    <div class="tour_container">
-                     <div class="ribbon_3 popular"><span>ANCIENT</span></div>                       
-                        <div class="img_container">
-                            <a href="cultural-sites/cultural-sites-list.html">
-                                <img src="assets/images/lists/historical.jpg" width="800" height="533" class="img-fluid" alt="image">
-                                <div class="short_info"></div>
-                            </a>
-                        </div>
-                    <div class="tour_title">
-                        <h3><strong>10 DUBAI HISTORICAL AND CULTURAL SITES</strong></h3><br>
-                    </div>
-                    </div>
-                    <!-- End box tour -->
-                </div>
-
-                <!-- /item -->
-                <div class="item">
-                    <div class="tour_container">
-                        <div class="ribbon_3 popular"><span>FREE</span></div>
-                        <div class="img_container">
-                            <a href="beaches/beaches-list.html">
-                                <img src="assets/images/lists/beaches1.jpg" width="800" height="533" class="img-fluid" alt="image">
-                                <div class="short_info"></div>
-                            </a>
-                        </div>
-                    <div class="tour_title">
-                        <h3><strong>TOP 10 DUBAI PUBLIC BEACHES & WATERFRONTS</strong></h3><br>
-                    </div>
-                    </div>
-                    <!-- End box tour -->
-                </div>
-
-                <!-- /item -->
-                <div class="item">
-                    <div class="tour_container">
-                        <div class="ribbon_3 popular"><span>ICONIC</span></div>
-                        <div class="img_container">
-                            <a href="landmarks/landmarks-list.html">
-                                <img src="assets/images/lists/landmarks.jpg" width="800" height="533" class="img-fluid" alt="image">
-                                <div class="short_info"></div>
-                            </a>
-                        </div>
-                    <div class="tour_title">
-                        <h3><strong>10 ICONIC LANDMARKS & BUILDINGS IN DUBAI</strong></h3><br>
-                    </div>
-                    </div>
-                    <!-- End box tour -->
-                </div>
-
-
-                <!-- /item -->
-                <div class="item">
-                    <div class="tour_container">
-                        <div class="ribbon_3 popular"><span>TOP RATED</span></div>
-                        <div class="img_container">
-                            <a href="theme-parks/theme-parks-list.html">
-                                <img src="assets/images/lists/theme-parks.jpg" width="800" height="533" class="img-fluid" alt="image">
-                                <div class="short_info"></div>
-                            </a>
-                        </div>
-                    <div class="tour_title">
-                        <h3><strong>10 TOP-RATED THEME PARKS IN DUBAI</strong></h3><br>
-                    </div>
-                    </div>
-                    <!-- End box tour -->
-                </div>
-                <!-- /item -->
+            <div class="main_title">
+                <h2>We have <span>made these lists</span> for you</h2>
+                <p>
+                    Thoroughly researched and consistently updated by a team of knowledgeable and passionate travel enthusiasts.
+                </p>
             </div>
-            <!-- /carousel -->
 
-    </div><!-- End container -->
+            <div class="row">
+
+                <div class="col-lg-4 wow zoomIn" data-wow-delay="0.2s">
+                    <div class="feature_home">
+                        <i class="icon_set_1_icon-6"></i>
+                        <h3><span>99</span> Top-Ranked Hotels</h3>
+                        <p>
+                            "Discover an exclusive collection of the top 99 ranked hotels in Dubai, renowned for their exceptional customer service and outstanding reviews. Carefully curated, each hotel has been handpicked to guarantee an unforgettable experience tailored to your preferences. Immerse yourself in luxury and indulge in the best that Dubai has to offer."
+                        </p>
+                        <a href="hotels/hotels-list1.html" class="btn_1 outline">Full List Awaits</a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 wow zoomIn" data-wow-delay="0.4s">
+                    <div class="feature_home">
+                        <i class="icon_set_1_icon-30"></i>
+                        <h3><span>The Ultimate</span> Dubai Bucket List</h3>
+                        <p>
+                            "Discover the ultimate guide to Dubai's 200 captivating attractions and activities. From iconic landmarks to thrilling adventures, cultural sites, and entertainment options, this comprehensive list showcases the best experiences the city has to offer. Plan your unforgettable Dubai journey and create memories that will last a lifetime with the Dubai bucket List."
+                        </p>
+                        <a href="attractions/attractions-list1.html" class="btn_1 outline">Full List Awaits</a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 wow zoomIn" data-wow-delay="0.6s">
+                    <div class="feature_home">
+                        <i class="icon_set_1_icon-50"></i>
+                        <h3><span>Dubai's Top 10</span> Shopping Malls</h3>
+                        <p>
+                            "Welcome to Dubai, the shoppers' paradise! Immerse yourself in retail bliss at Dubai's Top 10 Shopping Malls. Explore a haven of luxury brands, diverse stores, and thrilling entertainment options. Embark on a memorable shopping journey and indulge in the ultimate retail therapy experience. Get ready to discover the true essence of Dubai's vibrant shopping scene."
+                        </p>
+                        <a href="shopping-malls/shopping-malls-list.html" class="btn_1 outline">Full List Awaits</a>
+                    </div>
+                </div>
+
+            </div>
+            <!--End row -->
+        
+        </div>
+        <!-- End container -->
 <!-- Lists End -->
 
 
@@ -895,7 +700,7 @@
                 <div class="col-lg-6 nopadding">
                     <div class="features-content">
                         <h3>"THIS IS AMAD"</h3>
-                        <p>AMAD, an acronym for "Ask Me About Dubai," is an ultimate virtual travel assistant for Dubai tourists! We're passionate about helping visitors discover the best of Dubai and creating unforgettable travel experiences.</p>
+                        <p style="text-align:justify;">AMAD, an acronym for "Ask Me About Dubai," is an ultimate virtual travel assistant for Dubai tourists! We're passionate about helping visitors discover the best of Dubai and creating unforgettable travel experiences.</p>
                         <p><a href="about-amad.html" class=" btn_1 white">Read more</a>
                         </p>
                     </div>
@@ -947,20 +752,20 @@
                         <li><a href="index.html">Home</a></li>
                         <li><a href="about-amad.html">About us</a></li>
                         <li><a href="contact-us.html">Contact us</a></li>
-                        <li><a href="hotels/hotels-list1.html">Top Rated Hotels</a></li>
-                        <li><a href="attractions/attractions-list1.html">Iconic Attractions</a></li>
+                        <li><a href="#">Virtual Assistant</a></li>
+                        <li><a href="subs/affiliate-disclosure.html">Affiliate Disclosure</a></li>
                         <li><a href="subs/fair-usage-disclaimer.html">Fair Usage Disclaimer</a></li>
                     </ul>
                 </div>
                 <div class="col-md-3 col-sm-4">
-                    <h3>Complied Lists</h3>
+                    <h3>Popular</h3>
                     <ul>
-                        <li><a href="shopping-malls/shopping-malls-list.html">Shopping Malls</a></li>
-                        <li><a href="adventure/adventure-list.html">Adventure and Sports</a></li>
-                        <li><a href="beaches/beaches-list.html">Beaches and Waterfronts</a></li>
-                         <li><a href="cultural-sites/cultural-sites-list.html">Historical and Cultural Sites</a></li>
-                         <li><a href="theme-parks/theme-parks-list.html">Theme Parks and Entertainment</a></li>
-                         <li><a href="landmarks/landmarks-list.html">Landmarks and Iconic Buildings</a></li>
+                        <li><a href="attractions/attractions-list1.html">Dubai Bucket List</a></li>
+                        <li><a href="shopping-malls/shopping-malls-list.html">Shopping Malls List</a></li>
+                        <li><a href="hotels/hotels-list1.html">Top Rated Hotels List</a></li>
+                        <li><a href="https://g.page/r/CUUxSwtD1hZWEAI/review/" target="_blank">Leave a Google Review</a></li>
+                         <li><a href="faqs.html">Frequently Asked Questions</a></li>
+                         <li><a href="#">Section Under Development</a></li>
                     </ul>
                 </div>
                 <div class="col-md-2 col-sm-4">
@@ -969,7 +774,7 @@
                     
                     <div class="tooltip_styled tooltip-effect-1">
                     <img src="assets/images/others/google-review.jpg" width="170" height="170" alt="Image" class="img-fluid tooltip-item">
-                    <div class="tooltip-content">Our customers' feedback is integral to our growth and success. Please take a moment to share your experience by leaving a Google review, accessible through this QR code or <a class="text-danger" href="https://g.page/r/CUUxSwtD1hZWEAI/review/" target="_blank">Click here</a> to write a review. Your feedback is greatly appreciated.</div>
+                    <div class="tooltip-content">Our customers' feedback is integral to our growth and success. Please take a moment to share your experience by leaving a Google review, accessible through this QR code.</div>
                     </div>
 
                 </div>
@@ -1006,54 +811,6 @@
             </button>
         </form>
     </div><!-- End Search Menu -->
-
-        <!-- Sign In Popup -->
-    <div id="sign-in-dialog" class="zoom-anim-dialog mfp-hide">
-        <div class="small-dialog-header">
-            <h3>Sign In</h3>
-        </div>
-        <form>
-            <div class="sign-in-wrapper">
-                <a href="#0" class="social_bt facebook">Login with Facebook</a>
-                <a href="#0" class="social_bt google">Login with Google</a>
-                <div class="divider"><span>Or</span></div>
-                <div class="form-group">
-                    <label>Email</label>
-                    <input type="email" class="form-control" name="email" id="email">
-                    <i class="icon_mail_alt"></i>
-                </div>
-                <div class="form-group">
-                    <label>Password</label>
-                    <input type="password" class="form-control" name="password" id="password" value="">
-                    <i class="icon_lock_alt"></i>
-                </div>
-                <div class="clearfix add_bottom_15">
-                    <div class="checkboxes float-start">
-                        <label class="container_check">Remember me
-                          <input type="checkbox">
-                          <span class="checkmark"></span>
-                        </label>
-                    </div>
-                    <div class="float-end"><a id="forgot" href="javascript:void(0);">Forgot Password?</a></div>
-                </div>
-                <div class="text-center"><input type="submit" value="Log In" class="btn_login"></div>
-                <div class="text-center">
-                    Don’t have an account? <a href="javascript:void(0);">Sign up</a>
-                </div>
-                <div id="forgot_pw">
-                    <div class="form-group">
-                        <label>Please confirm login email below</label>
-                        <input type="email" class="form-control" name="email_forgot" id="email_forgot">
-                        <i class="icon_mail_alt"></i>
-                    </div>
-                    <p>You will receive an email containing a link allowing you to reset your password to a new preferred one.</p>
-                    <div class="text-center"><input type="submit" value="Reset Password" class="btn_1"></div>
-                </div>
-            </div>
-        </form>
-        <!--form -->
-    </div>
-    <!-- /Sign In Popup -->
 	
 
     <!-- Common scripts -->

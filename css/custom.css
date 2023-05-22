@@ -116,4 +116,12 @@ a.btn_2:hover, .btn_2:hover {
     background: #333;
 }
 
+  @media (max-width: 600px) {
+    .hide-on-small {
+      display: none;
+    }
+  }
+
+
+
 
